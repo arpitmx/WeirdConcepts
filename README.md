@@ -1,4 +1,4 @@
-# SomeWeirdConceptsLanguages
+# Some Weird concepts , good to know.
 
 ## Python
 
@@ -28,6 +28,27 @@ QUE: why with a=256 one it was true ?
 > python makes a array of integers in range of -5 to 256 in its memory during initialization , so when we call '256 is 256' its actually 
 > comparing the ids of the object of same array therefore it's true...
 > and when we compare in with 257 , as it is not in the initialized array new and UNIQUE ids will be given to each objects when initialized , therefore , false.
+
+#### Exceptions : 
+
+a,b = 257,257
+a is b 
+True
+
+a,b  = 'wow!','wow!'
+a is b
+True
+
+a = 'wow'
+b = 'wow'
+a is b 
+True
+
+a = 'wow!'
+b = 'wow!'
+a is b 
+False 
+
 
 
 
